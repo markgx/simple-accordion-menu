@@ -21,7 +21,7 @@
       $($el.children()[options.initialOpen]).children().show();
     }
 
-    $el.find('a').on('click', function(e) {
+    $el.find('a').click(function(e) {
       var $nextEl = $(this).next();
       if ($nextEl.is('ul')) {
         e.preventDefault();
