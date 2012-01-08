@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+  float: left;
+  width: 200px;
+}
+
+nav ul {
+  /*list-style-type: none;*/
+}
+
+nav ul li {
+/*  background-color: #65696C;
+  padding: 3px;
+  margin-bottom: 2px;
+*/
+}
+
+nav a {
+  /*color: #fff;*/
+  text-decoration: none;
+}
+
+#content {
+  margin-left: 200px;
+  width: 760px;
+}
