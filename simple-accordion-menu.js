@@ -29,7 +29,7 @@
 
     $el.find('li ul').hide();
 
-    if (options.initialOpen) {
+    if (options.initialOpen != null) {
       $($el.children()[options.initialOpen]).children().show();
     }
 
